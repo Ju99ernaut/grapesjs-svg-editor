@@ -1,0 +1,13 @@
+.DS_Store
+private/
+/locale
+node_modules/
+*.log
+_index.html
+dist/
+extensions/
+images/
+lib/
+css/
+method-draw.compiled.js
+method_index.html
