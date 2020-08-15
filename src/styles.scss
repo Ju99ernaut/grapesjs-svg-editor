@@ -1,0 +1,25 @@
+#gjs-sm-svg {
+    display: none;
+}
+
+#menu_bar {
+    display: none;
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 130px;
+}
+
+#tools_top {
+    position: relative;
+    width: 200px;
+    height: auto;
+    background: transparent;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.draginput {
+    width: 45%;
+}
