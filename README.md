@@ -166,6 +166,14 @@ Build the source
 $ npm run build
 ```
 
+## ToDo 
+
+- [] Button colors
+- [] Dropdown colors
+- [] Sidebar and sidebar icons
+- [] Color picker theme
+- [] Improve or replace modals
+- [] Theme
 
 
 ## License
