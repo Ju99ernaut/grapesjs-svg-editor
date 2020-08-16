@@ -58,7 +58,7 @@ export default (editor, opts = {}) => {
   const methodTemplate = ``;
 
   const methodEl = document.createElement('div');
-  methodEl.style = "display:none;z-index:100;";
+  methodEl.style = "display:none;z-index:5;";
   methodEl.innerHTML = methodTemplate;
 
   //document.body.appendChild(methodEl);
@@ -151,6 +151,11 @@ export default (editor, opts = {}) => {
       return svgStream
     },
 
+    parseSvg(svg) {
+      const svgTag = svg.split(/<svg/);
+      return `<svg viewBox="0 0 24 24" ${svgTag[1]}`;
+    },
+
     applyChanges() {
       const {
         svgEditor,
@@ -162,7 +167,7 @@ export default (editor, opts = {}) => {
         onApply(svgEditor, target);
       } else {
         let result = svgEditor.canvas.getSvgString();
-        this.applyToTarget(result);
+        this.applyToTarget(this.parseSvg(result));
       }
       editor.stopCommand(commandId);
     },
