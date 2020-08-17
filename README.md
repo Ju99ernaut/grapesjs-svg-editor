@@ -168,12 +168,12 @@ $ npm run build
 
 ## ToDo 
 
-- [ ] Button colors
+- [x] Button colors(change manually)
 - [x] Dropdown colors
 - [ ] Sidebar and sidebar icons
 - [x] Color picker theme
 - [x] modal theme
-- [ ] Theme
+- [x] Theme(change manually)
 
 
 ## License
