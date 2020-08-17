@@ -2,13 +2,6 @@
     display: none;
 }
 
-#menu_bar {
-    display: none;
-    background: rgba(0, 0, 0, 0.25);
-    position: absolute;
-    left: 130px;
-}
-
 #dialog_container {
     background: inherit;
     color: inherit;
@@ -16,6 +9,10 @@
 
 #color_picker {
     background: inherit;
+}
+
+#svg_editor .jPicker td.Radio input {
+    margin: 0 4px 0 0;
 }
 
 div.jGraduate_StopSlider {
@@ -31,8 +28,28 @@ div.jGraduate_Form_Section {
     color: inherit;
 }
 
+#color_picker input[type=text],
+#color_picker input[type=number] {
+    color: inherit;
+    background: rgb(0, 0, 0, 0.15);
+    border: 1px solid rgb(0, 0, 0, 0.25);
+}
+
+#svg_editor .jPicker td.Text input {
+    color: inherit;
+    background: rgb(255, 255, 255, 0.15);
+    border: inherit;
+}
+
 li.jGraduate_tab_current {
     background-color: rgba(255, 255, 255, 0.35);
+}
+
+#menu_bar {
+    display: none;
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 130px;
 }
 
 #tools_top {
