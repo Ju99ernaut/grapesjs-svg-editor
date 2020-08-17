@@ -9,6 +9,32 @@
     left: 130px;
 }
 
+#dialog_container {
+    background: inherit;
+    color: inherit;
+}
+
+#color_picker {
+    background: inherit;
+}
+
+div.jGraduate_StopSlider {
+    background: transparent;
+}
+
+.jGraduate_tabs,
+div.jGraduate_Form_Section {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#color_picker label {
+    color: inherit;
+}
+
+li.jGraduate_tab_current {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
 #tools_top {
     position: relative;
     width: 200px;

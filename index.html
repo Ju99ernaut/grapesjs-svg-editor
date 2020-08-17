@@ -20,6 +20,28 @@
       display: none;
     }
 
+    #dialog_container {
+      background: inherit;
+      color: inherit;
+    }
+
+    #color_picker {
+      background: inherit;
+    }
+
+    .jGraduate_tabs,
+    div.jGraduate_Form_Section {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    li.jGraduate_tab_current {
+      background-color: rgba(255, 255, 255, 0.35);
+    }
+
+    div.jGraduate_StopSlider {
+      background: transparent;
+    }
+
     #menu_bar {
       display: none;
       background: rgba(0, 0, 0, 0.25);
@@ -593,7 +615,7 @@
     </div>
 
     <!-- hidden divs -->
-    <div id="color_picker"></div>
+    <div id="color_picker" class="gjs-one-bg gjs-two-color"></div>
 
   </div> <!-- svg_editor -->
 
@@ -628,7 +650,7 @@
     </select>
   </div>
 
-  <div id="dialog_box">
+  <div id="dialog_box" class="gjs-one-bg gjs-two-color">
     <div id="dialog_box_overlay"></div>
     <div id="dialog_container">
       <div id="dialog_content"></div>
