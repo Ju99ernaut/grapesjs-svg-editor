@@ -153,7 +153,10 @@ export default (editor, opts = {}) => {
 
     parseSvg(svg) {
       const svgTag = svg.split(/<svg/);
-      return `<svg viewBox="0 0 24 24" ${svgTag[1]}`;
+      const {
+        svgEditor
+      } = this;
+      return `<svg viewBox="0 0 ${svgEditor.canvas.contentW} ${svgEditor.canvas.contentH}" ${svgTag[1]}`;
     },
 
     applyChanges() {
