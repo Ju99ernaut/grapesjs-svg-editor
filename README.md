@@ -170,7 +170,7 @@ $ npm run build
 
 - [x] Button colors(change manually)
 - [x] Dropdown colors
-- [x] Sidebar and sidebar icons(fixed in update)
+- [x] Sidebar and sidebar icons(fixed method-draw in update)
 - [x] Color picker theme
 - [x] modal theme
 - [x] Theme(change manually)
