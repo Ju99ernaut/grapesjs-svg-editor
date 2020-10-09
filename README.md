@@ -1,6 +1,6 @@
 # Grapesjs Svg 
 
-Intergrates the `method draw` SVG editor into `grapesjs`
+Intergrates the `method draw` SVG editor into `grapesjs`(WIP)
 
 <div align="center">
   <img alt="demo.png" src="demo.png">
@@ -26,6 +26,9 @@ project
 |__index.html
 |__method-draw.compiled.js
 ```
+
+### Issues
+* Conflicting key bindings between `grapesjs` and `method`. 
 
 
 ### HTML
@@ -83,6 +86,8 @@ body, html {
 
 
 ## Download
+
+>npm package not yet available.
 
 * CDN
   * `https://unpkg.com/grapesjs-svg-editor`
@@ -168,12 +173,11 @@ $ npm run build
 
 ## ToDo 
 
-- [x] Button colors(change manually)
+- [x] Button colors
 - [x] Dropdown colors
 - [x] Sidebar and sidebar icons(fixed method-draw in update)
 - [x] Color picker theme
-- [x] modal theme
-- [x] Theme(change manually)
+- [x] modal color
 
 
 ## License
