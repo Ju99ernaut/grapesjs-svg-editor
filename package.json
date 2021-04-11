@@ -10,7 +10,7 @@
   "scripts": {
     "start": "grapesjs-cli serve",
     "build": "grapesjs-cli build",
-    "build:css": "node-sass src/styles.scss dist/grapesjs-indexeddb-ui.min.css --output-style compressed",
+    "build:css": "node-sass src/styles.scss dist/grapesjs-svg-editor.min.css --output-style compressed",
     "bump": "npm version patch -m 'Bump v%s'"
   },
   "keywords": [
