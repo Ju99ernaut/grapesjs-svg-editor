@@ -11,3 +11,4 @@ lib/
 css/
 method-draw.compiled.js
 method_index.html
+.vscode/settings.json
