@@ -19,7 +19,7 @@
   ],
   "devDependencies": {
     "grapesjs-cli": "^1.0.15",
-    "node-sass": "^7.0.0"
+    "node-sass": "^7.0.3"
   },
   "license": "MIT"
 }
